@@ -1,0 +1,50 @@
+body{
+  font-family: Quicksand;
+  line-height: 1.6em;
+  color: #666;
+}
+
+a{
+  text-decoration: none;
+}
+
+#container{
+  width: 740px;
+  background: #fff;
+  margin: auto;
+}
+
+.clearfix{
+  clear:both;
+}
+
+header{
+  padding: 30px 20px;
+  background: #f4f4f4;
+}
+header h1{
+  color: #dd2826;
+}
+
+section{
+  padding: 30px 20px 20px 20px;
+}
+
+footer{
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#search-form{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.fieldcontainer{
+  display: block;
+  position: relative;
+  width: 90%
+  margin: 0 auto;
+}
+

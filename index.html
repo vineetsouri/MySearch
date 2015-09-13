@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>My Search</title>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="http://code.jquery.com/jquery-2.1.4.min.js">
   <link rel="stylesheet" href="js/script.css">
@@ -12,8 +13,21 @@
   <div id="container">
     <header>
       <h1>Search<span>Youtube</span></h1>
-      <p></p>
+      <p>Search Youtube videos</p>
     </header>
+    <section>
+      <form id="search-form" name = "search-form" onsubmit="return search()">
+        <div class="fieldcontainer">
+          <input type="search" id="query" class="search-field" placeholder="Browse your awesome videos from YOUTUBE">
+          <input type="submit" name="search-btn" id="search-btn" value="">
+        </div>
+      </form>
+      <ul id="results"></ul>
+      <div id="buttons"></div>
+    </section>
+    <footer>
+      <p>Made by Vineet Souri</p>
+    </footer>
   </div>
 </body>
 </html>
