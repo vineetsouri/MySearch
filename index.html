@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My Search</title>
-  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="http://code.jquery.com/jquery-2.1.4.min.js">
-  <link rel="stylesheet" href="js/script.js">
-</head>
-<body>
-  <div class="container">
-      <div class="row main-row">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My YouTube Search</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row logo-row">
         <h2>My YouTube Search</h2>
       </div>
       <div class="row search-row">
-       <div class="col-md-12">
-         <form id="search-form" onsubmit="return search()">
-          <div class="form-group">
-            <input type="search" class="form-control" id="input-search" placeholder="Browse your awesome videos from YOUTUBE">
-          </div>
-        </form>
-      </div>
-    </div>        
-    <div id="results"></div>
-    <div id="buttons"></div> 
-    <div id="footer">Made by Vineet Souri</div>       
-  </div>
-</body>
+        <div class="col-md-12">
+          <form id="search-form" onsubmit="return search()">
+            <div class="form-group">
+              <input type="search" class="form-control" id="input-search" placeholder="Search Youtube for....">
+            </div>
+          </form>
+        </div>
+      </div>        
+      <div id="results"></div>
+      <div id="buttons"></div> 
+      <div id="footer"></div>       
+    </div>
+  </body>
 </html>
