@@ -27,7 +27,7 @@ $(document).ready(function(){
 function search() {
 
   //To Empty the search results and buttons before searching again.
-  $('#results').html('abc');
+  $('#results').html('');
   $('#buttons').html('');
 
   //To get the query in search bar
