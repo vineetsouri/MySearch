@@ -105,6 +105,7 @@ function nextPage(){
     maxResults: 10,  
     key: 'AIzaSyD0PkZmdeydKgxsP1PyOy3GQ-5N5Wpeatk'}, function(data){
       console.log(data);
+
       var nextPageToken = data.nextPageToken;
       var prevPageToken = data.prevPageToken;
 
